@@ -6,6 +6,7 @@ Assignment 1.1: Your first Python Application
 '''
 
 
+
 # Creating a description as an introduction to Pythoncousre for my users.
 print( "        \t\t\t   -Welcome To Python For Beginners 1O1- \n\n  \t\t\t    A course design with Beginners at Heart. \n\n")
 
@@ -26,9 +27,9 @@ print("Register Here... \n\n ")
 # Adding at least two variables holding different data types for my application
 name = input("What is your name?\n :")
 age = int( input("What is your age? \n :"))
-print(name + " you are " + str(age) + " years old \n \n ")
+print(f"{name} you are {age}" + " years old \n \n ")
 
-print("Thank You Very much " + name + "  for your attention \n\n ")
+print(f"Thank You Very much {name}" + "  for your attention \n\n ")
 
 #adding links to my programming
 print(" Now run Python Online (if needed) https://www.onlinegdb.com/online_python_compiler \n\n ")
